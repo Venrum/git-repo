@@ -4,9 +4,9 @@
 int main()
 {
 	std::cout << "Number of good you can buy" << std::endl;
-	double	price;
-	double	rubles;
-	double	buyings;
+	double	price	= 0;
+	double	rubles	= 0;
+	double	buyings	= 0;
 
 	std::cout << "Enter your money: ";
 	std::cin >> rubles;
