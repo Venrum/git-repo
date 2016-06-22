@@ -1,23 +1,21 @@
 #include <iostream>
 #include <conio.h>
-#include <climits>
-
 
 int main()
-
 {
-
 	std::cout << "Number of good you can buy" << std::endl;
-	double Price, Rubles, Buyings;
+	double	price;
+	double	rubles;
+	double	buyings;
 
 	std::cout << "Enter your money: ";
-	std::cin >> Rubles;
+	std::cin >> rubles;
 	std::cout << "Enter price of the goods: ";
-	std::cin >> Price;
+	std::cin >> price;
 
-	Buyings = Rubles / Price;
+	buyings = rubles / price;
 
-	std::cout << "You can buy: " << Buyings << " numbers of goods" << std::endl;
+	std::cout << "You can buy: " << buyings << " numbers of goods" << std::endl;
 
 	_getch();
 
