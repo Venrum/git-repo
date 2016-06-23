@@ -13,9 +13,8 @@ int main()
 
 	percent = (a / b) * 100;
 
-	std::cout << "Number of percent from 1 to 2 is: " << percent << std::endl;
+	std::cout << "Number of percent from 1 to 2 is: " << percent <<" %" << std::endl;
 
 	_getch();
-
 	return 0;
 }
